@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angelo Gozo | E-Portfolio | GEELEC 6</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Blueprint Canvas Background -->
+  <canvas id="blueprint-canvas"></canvas>
+
+  <!-- Navigation -->
+  <nav id="main-nav">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <span class="brand-dot"></span>
+        <span>GEELEC 6</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#artifacts" class="nav-link">Artifacts</a></li>
+        <li><a href="#discussion" class="nav-link">Discussion</a></li>
+        <li><a href="#feedback" class="nav-link">Feedback</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#hero" class="mob-link">Home</a></li>
+      <li><a href="#experience" class="mob-link">Experience</a></li>
+      <li><a href="#artifacts" class="mob-link">Artifacts</a></li>
+      <li><a href="#discussion" class="mob-link">Discussion</a></li>
+      <li><a href="#feedback" class="mob-link">Feedback</a></li>
+    </ul>
+  </div>
+
+  <!-- ========== SECTION 1: HERO ========== -->
+  <section id="hero">
+    <div class="hero-bg-overlay"></div>
+
+    <!-- Floating Logos -->
+    <div class="logo-float logo-left" id="logo-cnsc" data-parallax="0.04">
+      <div class="logo-glass">
+        <img src="asset/cnsc_logo.png" alt="CNSC Logo" />
+        <span>Camarines Norte<br>State College</span>
+      </div>
+    </div>
+    <div class="logo-float logo-right" id="logo-ccms" data-parallax="0.06">
+      <div class="logo-glass">
+        <img src="asset/ccms_logo.png" alt="CCMS Logo" />
+        <span>College of Computing<br>&amp; Multimedia Studies</span>
+      </div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        E-Portfolio &bull; Academic Year 2024–2025
+      </div>
+
+      <div class="hero-text-block reveal-up delay-1">
+        <h1 class="hero-name">Angelo<br><em>Gozo</em></h1>
+        <div class="hero-underline"></div>
+        <p class="hero-subtitle">BSIT 2-A &nbsp;|&nbsp; GEELEC 6: Reading Visual Arts</p>
+      </div>
+
+      <div class="hero-photo-wrapper reveal-up delay-2">
+        <div class="photo-geometric-shadow"></div>
+        <div class="photo-frame">
+          <img src="asset/gozo.jpg" alt="Angelo Gozo" id="hero-photo" />
+        </div>
+        <div class="photo-accent-line"></div>
+      </div>
+
+      <div class="hero-descriptor reveal-up delay-3">
+        <p>A reflective collection of my academic journey through the intersections of technology, society, and human experience.</p>
+        <a href="#experience" class="cta-btn">
+          Explore Portfolio
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 2: COURSE EXPERIENCE ========== -->
+  <section id="experience">
+    <div class="section-label">01 / Course Experience</div>
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2 class="section-title">The Journey Through<br><em>Living in the IT Era</em></h2>
+        <div class="title-accent"></div>
+      </div>
+
+      <div class="experience-grid">
+        <div class="exp-card exp-main reveal-left">
+          <div class="exp-card-inner">
+            <div class="exp-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3>A Semester of Growth</h3>
+            <p>Enrolling in GEELEC 6 — Reading Visual Arts — opened my eyes to how deeply technology is woven into every fabric of modern existence. Before this course, I perceived technology primarily as a set of tools. After each lecture, reflection, and discussion, I came to understand it as a dynamic social, ethical, and cultural force that shapes who we are and how we relate to one another.</p>
+            <p>The subject challenged me to think beyond code and algorithms. It pushed me to ask harder questions: Who benefits from these systems? Who is left behind? What responsibilities do we carry as future IT professionals entering a world already saturated with digital dependencies?</p>
+          </div>
+        </div>
+
+        <div class="exp-card exp-challenge reveal-right delay-1">
+          <div class="exp-card-inner">
+            <div class="exp-icon orange">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Challenges I Overcame</h3>
+            <p>The most significant challenge I faced was bridging the gap between abstract technological concepts and their real-world implications. Discussions on digital ethics, the digital divide, and data privacy forced me to confront uncomfortable truths — that the very technologies I aspire to build can also exclude, manipulate, or harm.</p>
+            <p>Writing the reflection paper on the documentary was particularly demanding. It required me to synthesize personal observation with academic critique — a skill I had not fully developed before this course. Learning to be both analytical and empathetic in my writing was a transformative experience.</p>
+          </div>
+        </div>
+
+        <div class="exp-card exp-takeaways reveal-left delay-2">
+          <div class="exp-card-inner">
+            <div class="exp-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+            </div>
+            <h3>Technical &amp; Intellectual Takeaways</h3>
+            <p>Beyond its humanistic dimensions, the course reinforced critical technical literacy. I gained a deeper appreciation for how networks, platforms, and data systems operate not just mechanically, but politically and socially. The ability to read a documentary with an IT lens, participate in group academic discourse, and produce structured academic outputs has sharpened my competence as both a student and a future professional.</p>
+            <p>I leave this course not just with grades, but with a richer, more nuanced worldview — one that will serve as the ethical foundation for every system I will eventually design, build, and deploy.</p>
+          </div>
+        </div>
+
+        <div class="exp-card exp-quote reveal-right delay-3">
+          <div class="exp-card-inner quote-card">
+            <div class="quote-mark">"</div>
+            <p class="quote-text">Technology is not neutral. It carries the values, biases, and intentions of those who build it. This course taught me that being a good IT professional means being a responsible human being first.</p>
+            <div class="quote-author">
+              <div class="qa-line"></div>
+              <span>Angelo Gozo, BSIT 2-A</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 3: ARTIFACTS ========== -->
+  <section id="artifacts">
+    <div class="section-label">02 / Academic Artifacts</div>
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2 class="section-title">Outputs &amp;<br><em>Academic Artifacts</em></h2>
+        <div class="title-accent orange"></div>
+        <p class="section-desc">A curated gallery of academic work produced throughout the semester — each piece representing a milestone in critical thinking, research, and scholarly reflection.</p>
+      </div>
+
+      <div class="artifacts-grid">
+
+        <!-- Quiz Card -->
+        <div class="artifact-card reveal-up delay-1" data-file="asset/quiz.jpg" data-title="Quiz">
+          <div class="artifact-glow"></div>
+          <div class="artifact-inner">
+            <div class="artifact-thumbnail">
+              <img src="asset/quiz.jpg" alt="Quiz Preview" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="artifact-fallback-icon" style="display:none;">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+              </div>
+              <div class="artifact-overlay">
+                <a href="asset/quiz.jpg" target="_blank" class="view-btn">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  Open File
+                </a>
+              </div>
+            </div>
+            <div class="artifact-info">
+              <div class="artifact-tag">Assessment</div>
+              <h3>Quiz</h3>
+              <p>A foundational assessment evaluating comprehension of core concepts in the IT Era — covering digital transformation, societal impact, and the evolving role of information technology.</p>
+              <a href="asset/quiz.jpg" target="_blank" class="artifact-link">
+                View Document
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Long Quiz Card -->
+        <div class="artifact-card reveal-up delay-2" data-file="asset/long_quiz.jpg" data-title="Long Quiz">
+          <div class="artifact-glow orange"></div>
+          <div class="artifact-inner">
+            <div class="artifact-thumbnail">
+              <img src="asset/long_quiz.jpg" alt="Long Quiz Preview" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="artifact-fallback-icon" style="display:none;">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 7h6m-6 4h6m-3-8h.01"/></svg>
+              </div>
+              <div class="artifact-overlay">
+                <a href="asset/long_quiz.jpg" target="_blank" class="view-btn">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  Open File
+                </a>
+              </div>
+            </div>
+            <div class="artifact-info">
+              <div class="artifact-tag orange">Major Assessment</div>
+              <h3>Long Quiz</h3>
+              <p>A comprehensive examination spanning multiple topics of the course — testing deeper analytical understanding of digital society, cybersecurity awareness, and the ethical dimensions of emerging technologies.</p>
+              <a href="asset/long_quiz.jpg" target="_blank" class="artifact-link orange">
+                View Document
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Documentary Reflection Card -->
+        <div class="artifact-card reveal-up delay-3" data-file="asset/Gozo - RVA.pdf" data-title="Reflection Paper">
+          <div class="artifact-glow"></div>
+          <div class="artifact-inner">
+            <div class="artifact-thumbnail">
+              <img src="asset/gozo_rva_preview.png" alt="Reflection Paper Preview" />
+              <div class="artifact-overlay">
+                <a href="asset/Gozo - RVA.pdf" target="_blank" class="view-btn">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  Open File
+                </a>
+              </div>
+            </div>
+            <div class="artifact-info">
+              <div class="artifact-tag">Reflection</div>
+              <h3>Documentary Reflection Paper</h3>
+              <p>A scholarly reflection paper on a documentary screened during the course — critically analyzing its themes through the lens of information technology, digital ethics, and the lived realities of people in the digital age.</p>
+              <a href="asset/Gozo - RVA.pdf" target="_blank" class="artifact-link">
+                View Document
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 4: DISCUSSION PAPER ========== -->
+  <section id="discussion">
+    <div class="section-label">03 / Discussion Paper</div>
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2 class="section-title">Group<br><em>Discussion Paper</em></h2>
+        <div class="title-accent"></div>
+      </div>
+
+      <div class="discussion-layout">
+        <div class="discussion-preview-col reveal-left">
+          <div class="discussion-card">
+            <div class="discussion-badge">Featured Output</div>
+            <a href="asset/GE Elec  6 Discussion Paper _ Group 1.docx.pdf" target="_blank" class="discussion-img-link" title="Click to open Discussion Paper PDF">
+              <div class="discussion-img-wrapper">
+                <img src="asset/Discussion_cover.png" alt="Discussion Paper Cover" />
+                <div class="discussion-img-overlay">
+                  <div class="open-pdf-label">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                    <span>Open Full PDF</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="discussion-card-footer">
+              <span class="dcf-label">GE ELEC 6 — Group 1</span>
+              <a href="asset/GE Elec  6 Discussion Paper _ Group 1.docx.pdf" target="_blank" class="cta-btn small">
+                Download PDF
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="discussion-text-col reveal-right delay-1">
+          <div class="discussion-meta">
+            <div class="meta-item">
+              <div class="meta-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zm14 0l-2 2-4-4"/></svg>
+              </div>
+              <div>
+                <span class="meta-label">Group</span>
+                <span class="meta-value">Group 1, BSIT 2-A</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-icon orange">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              </div>
+              <div>
+                <span class="meta-label">Subject</span>
+                <span class="meta-value">GEELEC 6: Living in the IT Era</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              </div>
+              <div>
+                <span class="meta-label">Academic Year</span>
+                <span class="meta-value">2024 – 2025</span>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="discussion-heading">Collaborative Academic Discourse</h3>
+          <p>This discussion paper represents one of the most intellectually stimulating collaborative efforts of the semester. As part of Group 1, we were tasked with synthesizing our collective understanding of a critical theme in the course — examining how living in the IT era reshapes identity, community, and responsibility.</p>
+          <p>The process of writing collaboratively was as educational as the content itself. We had to negotiate perspectives, reconcile conflicting interpretations, and produce a unified voice from multiple individual experiences. It required active listening, intellectual flexibility, and a shared commitment to academic rigor.</p>
+          <p>The finished paper stands as a testament to what collaborative scholarship can achieve — a document that is richer, more multifaceted, and more insightful than any one of us could have produced alone.</p>
+
+          <div class="discussion-highlights">
+            <div class="dh-item">
+              <div class="dh-number">01</div>
+              <span>Critical Analysis of IT Themes</span>
+            </div>
+            <div class="dh-item">
+              <div class="dh-number orange">02</div>
+              <span>Collaborative Research Methodology</span>
+            </div>
+            <div class="dh-item">
+              <div class="dh-number">03</div>
+              <span>Academic Peer-Reviewed Writing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 5: INSTRUCTOR FEEDBACK ========== -->
+  <section id="feedback">
+    <div class="section-label">04 / Instructor Feedback</div>
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2 class="section-title">A Note of<br><em>Gratitude &amp; Reflection</em></h2>
+        <div class="title-accent orange"></div>
+      </div>
+
+      <div class="feedback-layout">
+        <div class="feedback-instructor-col reveal-left">
+          <div class="instructor-card">
+            <div class="instructor-photo-wrapper">
+              <div class="instructor-photo-bg"></div>
+              <img src="asset/ma'am.jpg" alt="Course Instructor" class="instructor-photo" />
+              <div class="instructor-badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                Course Instructor
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h3>Jhonna D. Alcantara</h3>
+              <p>GEELEC 6 — Reading Visual Arts</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback-text-col reveal-right delay-1">
+          <div class="feedback-content">
+            <div class="feedback-quote-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.2"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+
+            <h3>A Heartfelt Reflection to My Instructor</h3>
+
+            <p class="feedback-para">From the very first day of class, it was clear that this course would be unlike any I had taken before — and that was entirely by design. The way our instructor approached each topic with a blend of intellectual rigor and genuine human warmth set the tone for a learning environment that felt both challenging and safe.</p>
+
+            <p class="feedback-para">What I am most grateful for is how you never let us settle for surface-level answers. Every quiz, every discussion prompt, every reflective task was engineered to push us past what we already knew and into the discomfort of what we had yet to understand. You taught me that discomfort, when embraced with curiosity, is the birthplace of genuine learning.</p>
+
+            <p class="feedback-para">The documentary screening and subsequent reflection assignment was, for me, a turning point. The way you framed the discussion — connecting the film's narrative to the broader social implications of technology — helped me see that IT is not merely an engineering discipline. It is a humanistic one, with the power to shape lives, communities, and futures. That perspective has permanently altered how I think about my own educational and professional path.</p>
+
+            <p class="feedback-para">The group discussion paper was another milestone I will carry forward. You structured the collaborative process in a way that required us to listen to each other, challenge each other respectfully, and arrive at shared understanding without surrendering our individual voices. That skill — productive intellectual collaboration — is one I will use long after this semester ends.</p>
+
+            <blockquote class="feedback-blockquote">
+              <p>To my instructor: thank you for seeing more in us than we saw in ourselves. Thank you for the patience with which you answered questions, the care with which you gave feedback, and the passion with which you taught. You did not merely transfer knowledge — you ignited a lifelong habit of asking the right questions.</p>
+            </blockquote>
+
+            <p class="feedback-para">I carry this course — and your guidance — as one of the most valuable chapters of my academic formation. I am a better thinker, a more empathetic technologist, and a more thoughtful person because of it.</p>
+
+            <div class="feedback-signature">
+              <div class="sig-line"></div>
+              <div class="sig-text">
+                <strong>Angelo Gozo</strong>
+                <span>BSIT 2-A &bull; GEELEC 6</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-logos">
+          <img src="asset/cnsc_logo.png" alt="CNSC" />
+          <img src="asset/ccms_logo.png" alt="CCMS" />
+        </div>
+        <div class="footer-text">
+          <p><strong>Angelo Gozo</strong> &bull; BSIT 2-A &bull; GEELEC 6: Living in the IT Era</p>
+          <p>Camarines Norte State College &bull; College of Computing &amp; Multimedia Studies</p>
+        </div>
+        <div class="footer-year">
+          <span>2024</span>
+          <div class="fy-line"></div>
+          <span>2025</span>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
